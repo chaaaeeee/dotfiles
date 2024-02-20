@@ -90,6 +90,7 @@ alias kuliah='cd ~/code/algo-lanjut'
 alias maria='mariadb -u root -p'
 alias postman='cd ~/Downloads/Postman && ./Postman'
 alias config='/usr/bin/git --git-dir=/home/yoda/dotfiles/ --work-tree=/home/yoda'
+alias agent='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519'
 
 # alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 # alias pacdiff=eos-pacdiff
