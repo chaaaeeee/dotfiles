@@ -80,24 +80,12 @@ _open_files_for_editing() {
 ## Aliases for the functions above.
 ## Uncomment an alias if you want to use it.
 ##
-alias nvim='nvim -c ":lua Palette()"'
-alias gosrc='cd ~/go/src'
-alias convim='cd ~/.config/nvim && nvim .'
-alias rm='rm -i'
-alias learn='cd ~/go/src/learn/go'
-alias cpp='g++ -o main'
-alias kuliah='cd ~/code/algo-lanjut'
-alias maria='mariadb -u root -p'
-alias postman='cd ~/Downloads/Postman && ./Postman'
-alias config='/usr/bin/git --git-dir=/home/yoda/dotfiles/ --work-tree=/home/yoda'
-alias agent='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519'
-alias grind='/usr/bin/git --git-dir=/home/yoda/grind/ --work-tree=/home/yoda/'
-alias code='cd ~/code'
 
 # alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 # alias pacdiff=eos-pacdiff
 ################################################################################
 
+. ~/.aliases
 
 ##-----------------------------------------------------
 ## synth-shell-prompt.sh
