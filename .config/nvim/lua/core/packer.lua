@@ -21,6 +21,9 @@ return require('packer').startup(function(use)
   use "xiyaowong/transparent.nvim"
   use 'andweeb/presence.nvim'
   use 'CRAG666/code_runner.nvim'
+  use "fladson/vim-kitty"
+  use "barrett-ruth/live-server.nvim"
+  use 'wolandark/vim-live-server'
 
   -- colorscheme
   use('bluz71/vim-nightfly-colors')

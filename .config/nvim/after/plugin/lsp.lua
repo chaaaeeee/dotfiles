@@ -30,6 +30,7 @@ require('mason-lspconfig').setup({
 require'lspconfig'.gopls.setup{}
 require'lspconfig'.clangd.setup{}
 require'lspconfig'.jsonls.setup{}
+require'lspconfig'.html.setup{}
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}

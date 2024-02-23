@@ -1,4 +1,5 @@
 require('code_runner').setup({
+
   filetype = {
     java = {
       "cd $dir &&",
@@ -18,6 +19,8 @@ require('code_runner').setup({
       "rustc $fileName &&",
       "$dir/$fileNameWithoutExt"
     },
-    go = "go run $fileName",
+    go = {
+        "go run $fileName"
+    }
   },
 })

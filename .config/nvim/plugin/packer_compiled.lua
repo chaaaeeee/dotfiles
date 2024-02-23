@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["live-server.nvim"] = {
+    loaded = true,
+    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/live-server.nvim",
+    url = "https://github.com/barrett-ruth/live-server.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -213,6 +218,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-kitty"] = {
+    loaded = true,
+    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-kitty",
+    url = "https://github.com/fladson/vim-kitty"
+  },
+  ["vim-live-server"] = {
+    loaded = true,
+    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-live-server",
+    url = "https://github.com/wolandark/vim-live-server"
   },
   ["vim-nightfly-colors"] = {
     loaded = true,
