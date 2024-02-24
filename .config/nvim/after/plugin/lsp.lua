@@ -31,6 +31,15 @@ require'lspconfig'.gopls.setup{}
 require'lspconfig'.clangd.setup{}
 require'lspconfig'.jsonls.setup{}
 require'lspconfig'.html.setup{}
+require'lspconfig'.tsserver.setup{}
+require'lspconfig'.eslint.setup{}
+require'lspconfig'.cssls.setup{
+    filetypes = {
+        "html",
+        "css",
+        "javascript"
+    },
+}
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}

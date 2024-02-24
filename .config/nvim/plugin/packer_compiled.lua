@@ -238,6 +238,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
+  },
+  ["web-tools.nvim"] = {
+    loaded = true,
+    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/web-tools.nvim",
+    url = "https://github.com/ray-x/web-tools.nvim"
   }
 }
 

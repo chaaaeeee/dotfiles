@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
   use "fladson/vim-kitty"
   use "barrett-ruth/live-server.nvim"
   use 'wolandark/vim-live-server'
+  use 'ray-x/web-tools.nvim'
 
   -- colorscheme
   use('bluz71/vim-nightfly-colors')

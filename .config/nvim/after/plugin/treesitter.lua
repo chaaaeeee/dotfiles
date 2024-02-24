@@ -1,7 +1,7 @@
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
 require'nvim-treesitter.configs'.setup {
 
-  ensure_installed = { "rust", "cpp", "go", "typescript", "javascript", "python", "java", "php", "c", "lua", "vim", "vimdoc", "query" },
+  ensure_installed = { "rust", "css", "cpp", "go", "typescript", "javascript", "python", "java", "php", "c", "lua", "vim", "vimdoc", "query" },
 
   sync_install = false,
   auto_install = true,
