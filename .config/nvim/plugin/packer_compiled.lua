@@ -194,11 +194,6 @@ _G.packer_plugins = {
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["presence.nvim"] = {
-    loaded = true,
-    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/presence.nvim",
-    url = "https://github.com/andweeb/presence.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -224,11 +219,6 @@ _G.packer_plugins = {
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-kitty",
     url = "https://github.com/fladson/vim-kitty"
   },
-  ["vim-live-server"] = {
-    loaded = true,
-    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-live-server",
-    url = "https://github.com/wolandark/vim-live-server"
-  },
   ["vim-nightfly-colors"] = {
     loaded = true,
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
@@ -238,11 +228,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/yoda/.local/share/nvim/site/pack/packer/start/vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
-  },
-  ["web-tools.nvim"] = {
-    loaded = true,
-    path = "/home/yoda/.local/share/nvim/site/pack/packer/start/web-tools.nvim",
-    url = "https://github.com/ray-x/web-tools.nvim"
   }
 }
 

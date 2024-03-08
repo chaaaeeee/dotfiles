@@ -13,20 +13,22 @@ return require('packer').startup(function(use)
   use 'wakatime/vim-wakatime'
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
-  use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use{'nvim-telescope/telescope.nvim', tag = '0.1.5'}
-  use "windwp/nvim-autopairs"
-  use "xiyaowong/transparent.nvim"
-  use 'andweeb/presence.nvim'
-  use 'CRAG666/code_runner.nvim'
   use "fladson/vim-kitty"
+
+  -- general-tool
+  use('ThePrimeagen/harpoon')
+  -- use 'andweeb/presence.nvim'
+  use "windwp/nvim-autopairs"
+  use 'CRAG666/code_runner.nvim'
+
+  -- web-tools
   use "barrett-ruth/live-server.nvim"
-  use 'wolandark/vim-live-server'
-  use 'ray-x/web-tools.nvim'
 
   -- colorscheme
+  use "xiyaowong/transparent.nvim"
   use('bluz71/vim-nightfly-colors')
   use { "ellisonleao/gruvbox.nvim" }
 
